@@ -1,0 +1,49 @@
+.navBar{
+    background-color:white;
+    border:solid 2px black;
+    height: 150px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Button {
+    background-color: #9c6ca0;
+    color: #000000;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    padding: 14px 28px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 rgb(146, 18, 116);
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.Button:hover {
+    box-shadow: inset 0 100px 0 0 #ffffff;
+}
+.carrito {
+    background-color: #9c6ca0;
+    color: #000000;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    padding: auto auto;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 rgb(146, 18, 116);
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.carrito:hover {
+    box-shadow: inset 0 100px 0 0 #ffffff;
+}
