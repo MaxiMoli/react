@@ -1,15 +1,19 @@
+
 .navBar{
-    background-color:white;
-    border:solid 2px black;
-    height: 150px;
+    background-color: rgb(237, 224, 173);
+    border-radius: 3px;
+    border: solid 2px black;
+    box-shadow: #000000 3px;
+    padding-bottom: 15px;
+    display: flex;
 }
 .buttons{
     display: flex;
     justify-content: space-evenly;
 }
 .Button {
-    background-color: #9c6ca0;
-    color: #000000;
+    background-color: #969078;
+    color:rgb(237, 224, 173);
     border: 2px solid rgb(0, 0, 0);
     border-radius: 4px;
     padding: 14px 28px;
@@ -18,32 +22,32 @@
     font-size: 14px;
     letter-spacing: 1px;
     cursor: pointer;
-    box-shadow: inset 0 0 0 0 rgb(146, 18, 116);
+    box-shadow: inset 0 0 0 0 rgb(57, 54, 42);
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
 }
 
 .Button:hover {
-    box-shadow: inset 0 100px 0 0 #ffffff;
+    box-shadow: inset 0 100px 0 0 #030000;
 }
 .carrito {
-    background-color: #9c6ca0;
-    color: #000000;
+    background-color: #969078;
+    color:rgb(237, 224, 173);
     border: 2px solid rgb(0, 0, 0);
     border-radius: 4px;
-    padding: auto auto;
+    padding: auto;
     display: inline-block;
     font-family: "Lucida Console", Monaco, monospace;
     font-size: 14px;
     letter-spacing: 1px;
     cursor: pointer;
-    box-shadow: inset 0 0 0 0 rgb(146, 18, 116);
+    box-shadow: inset 0 0 0 0 rgb(57, 54, 42);
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
 }
 
 .carrito:hover {
-    box-shadow: inset 0 100px 0 0 #ffffff;
+    box-shadow: inset 0 100px 0 0 #030000;
 }

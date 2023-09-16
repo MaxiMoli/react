@@ -1,5 +1,5 @@
 .CardItem{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(237, 224, 173);
     border-radius: 3px;
     border: solid 2px black;
     box-shadow: #000000 3px;
@@ -7,8 +7,8 @@
     padding: 30px 60px;
 }
 .Option {
-    background-color: #9c6ca0;
-    color: #000000;
+    background-color: #969078;
+    color:rgb(237, 224, 173);
     border: 2px solid rgb(0, 0, 0);
     border-radius: 4px;
     padding: 14px 28px;
@@ -17,12 +17,12 @@
     font-size: 14px;
     letter-spacing: 1px;
     cursor: pointer;
-    box-shadow: inset 0 0 0 0 rgb(146, 18, 116);
+    box-shadow: inset 0 0 0 0 rgb(57, 54, 42);
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
 }
 
 .Option:hover {
-    box-shadow: inset 0 100px 0 0 #ffffff;
+    box-shadow: inset 0 100px 0 0 #030000;
 }
