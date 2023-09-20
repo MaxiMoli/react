@@ -1,11 +1,10 @@
 
 .navBar{
     background-color: rgb(237, 224, 173);
-    border-radius: 3px;
     border: solid 2px black;
     box-shadow: #000000 3px;
-    padding-bottom: 15px;
     display: flex;
+    justify-content: space-between;
 }
 .buttons{
     display: flex;
@@ -13,7 +12,7 @@
 }
 .Button {
     background-color: #969078;
-    color:rgb(237, 224, 173);
+    color:rgb(237, 2224, 173);
     border: 2px solid rgb(0, 0, 0);
     border-radius: 4px;
     padding: 14px 28px;
@@ -28,26 +27,77 @@
     transition: ease-out 0.4s;
 }
 
+
 .Button:hover {
     box-shadow: inset 0 100px 0 0 #030000;
 }
 .carrito {
-    background-color: #969078;
-    color:rgb(237, 224, 173);
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 4px;
-    padding: auto;
+    background-color: rgb(237, 224, 173);
+    border: none;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.carrito:hover {
+}
+.Categories{
+}
+
+.Option1{
+    margin: 20px;
+    color:rgb(57, 54, 42);
+    padding: 14px 28px;
     display: inline-block;
-    font-family: "Lucida Console", Monaco, monospace;
-    font-size: 14px;
+    font-family: 'Jura', sans-serif;
+    font-size: 20px;
     letter-spacing: 1px;
     cursor: pointer;
     box-shadow: inset 0 0 0 0 rgb(57, 54, 42);
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
+    text-decoration: solid;
+    font-weight: 700;
 }
 
-.carrito:hover {
-    box-shadow: inset 0 100px 0 0 #030000;
+.Option1:hover{
+text-decoration:underline;
+}
+
+.titulo{
+    margin: 20px;
+    color:rgb(57, 54, 42);
+    padding: 14px 28px;
+    display: inline-block;
+    font-family: 'Red Rose', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 rgb(57, 54, 42);
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    text-decoration: solid;
+    font-weight: 700;
+}
+.ActiveOption{
+    margin: 20px;
+    color:rgb(57, 54, 42);
+    padding: 14px 28px;
+    display: inline-block;
+    font-family: 'Jura', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 rgb(57, 54, 42);
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    text-decoration: aliceblue;
+    font-weight: 700;
+}
+
+
+.ActiveOption:hover{
+text-decoration:underline;
 }
