@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 const NavBar = () => {
     return ( 
         <nav className='navBar' >
-            <NavLink to ={`/`} className={({isActive })=> isActive? 'titulo' : 'titulo'}> Nariso Deportes </NavLink>
+            <NavLink to ={`/`} className={({isActive })=> isActive? 'titulo' : 'titulo'}> Narison Deportes </NavLink>
             <div className='Categories'>
                 <NavLink to ={`/NavLinks/Vestimenta`} className={({isActive })=> isActive? 'ActiveOption' : 'Option1'}> Vestimenta </NavLink>
                 <NavLink to ={`/NavLinks/Accesorios`} className={({isActive })=> isActive? 'ActiveOption' : 'Option1'}> Accesorios </NavLink>
