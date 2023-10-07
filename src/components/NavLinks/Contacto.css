@@ -1,0 +1,13 @@
+.container{
+    display:inline-block;
+    border-radius:10px;
+    width: 30rem;
+    margin-top: 15px;
+}
+.mb-3{
+    padding: 10px;
+    font-size: larger;
+}
+.btn-primary{
+    margin: 20px;
+}

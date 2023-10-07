@@ -10,7 +10,7 @@ const ItemDetailContainer = () => {
     const { itemId }= useParams()
 
     useEffect(() => {
-        getProductById(itemId) // ID FIJO A MODO DE PRUEBA
+        getProductById(itemId) 
             .then(response => {
                 setProduct(response)
             })
