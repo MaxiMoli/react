@@ -18,13 +18,13 @@ const products =[
     stock: 5,description: 'Top manga larga elastizado para entrenar'},
     
     {id:'3',name: 'Calza C',price: 1290,category: 'Vestimenta', img: calza,
-    stock: 5,description: 'Calza elastizada corta'},
+    stock: 5, description: 'Calza elastizada corta'},
 
     {id:'4',name: 'Pesa rusa',price: 1290,category: 'Accesorios',img: pesarusa ,
-    stock: 5,description: 'Calza elastizada corta'},
+    stock: 5,description: 'Pesa rusa 12 kilos'},
 
     {id:'5',name: 'Guantes de boxeo',price: 1290,category: 'Accesorios',img:guantesbox,
-    stock: 5,description: 'Calza elastizada corta'},
+    stock: 5,description: 'Guantes de boxeo 12oz'},
 ]
 
 export const getProducts = () => {
