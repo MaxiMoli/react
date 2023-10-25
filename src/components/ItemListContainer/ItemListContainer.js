@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react'
-import { getProducts, getProductByCategory} from '../../asyncMock'
+//import { getProducts, getProductByCategory} from '../../asyncMock'
 import ItemList from '../ItemList/ItemList'
 import { useParams } from 'react-router-dom'
 import { getFirestore, collection, getDocs } from 'firebase/firestore'
@@ -13,7 +13,7 @@ const ItemListContainer = ({ greeting })  => {
     useEffect(()=> {
 
         const db= getFirestore()
-        const items =collection (db, 'items')
+        const items = collection (db, 'items')
         getDocs(items)
 
     //     const asyncFunc = categoryId ? getProductByCategory : getProducts;
